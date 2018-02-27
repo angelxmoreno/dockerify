@@ -105,5 +105,4 @@ abstract class BaseCollection
 
         throw new Exception($msg);
     }
-
 }

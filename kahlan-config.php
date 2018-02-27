@@ -15,4 +15,3 @@ $commandLine = $this->commandLine();
 $commandLine->option('spec', 'default', $spec_dir);
 $commandLine->option('cc', 'default', true);
 $commandLine->option('reporter', 'default', 'verbose');
-
