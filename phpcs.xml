@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<ruleset name="Chegg PHP Standards">
+    <description>A custom coding standards set of rules for Chegg</description>
+    <exclude-pattern>*/vendor/*</exclude-pattern>
+    <file>./</file>
+    <rule ref="PSR2"/>
+    <arg name="colors" />
+</ruleset>
