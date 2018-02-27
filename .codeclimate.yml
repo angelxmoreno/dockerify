@@ -2,4 +2,6 @@ plugins:
   phpcodesniffer:
     enabled: true
     config:
-          - standard: ["phpcs.xml"]
+          standard: "ruleset.xml"
+          ignore_warnings: false
+          encoding: utf-8
